@@ -62,18 +62,3 @@ def stacking(instructions, final_blocks, method = None):
 
 print(stacking(instructions, final_blocks, 'single'))
 print(stacking(instructions, final_blocks_q2, 'stack'))
-
-
-    
-    
-
-
-   
-
-        
-
-
-        
-        
-        
-    

@@ -35,7 +35,7 @@ for k, v in directories.items():
             smallest_feasible_dir = v
 
 print(smallest_feasible_dir)
-
+print(directories)
 
 
         

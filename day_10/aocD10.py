@@ -18,11 +18,7 @@ def render_pixel(cycle, sprite_pos, display):
     else:
         display[pixel_row, pixel_col] = 0
 
-
-
-
     return display
-
 
 
 total_stength = 0
@@ -56,25 +52,4 @@ for line in register:
 print(total_stength)
 plt.imshow(oled_ultra_hd)
 plt.show()
-
-
-
-
-
-
-
-
-
-
-
-
-            
-
-
-
-        
-
-
-
-
 

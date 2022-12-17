@@ -37,7 +37,7 @@ def drop_sand():
         return (x, y)
 
 
-    while y <= max_y:
+    while y < max_y + 1:
                        
         if (x, y + 1) not in unique_coors:
             y += 1
@@ -54,7 +54,7 @@ def drop_sand():
             continue
 
         break
-        
+
     return (x, y)
 
 counter = 0
